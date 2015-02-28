@@ -1,0 +1,78 @@
+<a href="#sidebar" class="mobilemenu"><i class="icon-reorder"></i></a>
+
+<div id="sidebar">
+    <div id="main-nav">
+        <div id="nav-container">
+            <div id="profile" class="clearfix">
+                <div class="portrate hidden-xs"></div>
+                <div class="title">
+                    <h2>Deniz Çakar</h2>
+                    <h3>İş Analisti / Yazılım Mühendisi</h3>
+                </div>
+                
+            </div>
+            <ul id="navigation">
+              <li {%if page.id == 'index'%}class="currentmenu"{%endif%} >
+                  <a href="{{site.baseurl}}/">
+                    <div class="icon icon-user"></div>
+                    <div class="text">Hakkında</div>
+                  </a>
+                </li>  
+                
+                <!--
+                <li {%if page.id == 'skills'%}class="currentmenu"{%endif%}>
+                  <a href="{{site.baseurl}}/skills.html">
+                    <div class="icon icon-book"></div>
+                    <div class="text">Yetenekler</div>
+                  </a>
+                </li> 
+                -->
+                
+                <li {%if page.id == 'projects'%}class="currentmenu"{%endif%}>
+                  <a href="{{site.baseurl}}/projects.html">
+                    <div class="icon icon-time"></div>
+                    <div class="text">Projeler</div>
+                  </a>
+                </li>
+
+                <!--<li>
+                  <a href="blog_posts.html">
+                    <div class="icon icon-edit"></div>
+                    <div class="text">Blog</div>
+                  </a>
+                </li> 
+                
+
+                <li>
+                  <a href="gallery.html">
+                    <div class="icon icon-picture"></div>
+                    <div class="text">Gallery</div>
+                  </a>
+                </li>-->
+                <!--
+                <li {%if page.id == 'contact'%}class="currentmenu"{%endif%}>
+                  <a href="{{site.baseurl}}/contact.html">
+                      <div class="icon icon-calendar"></div>
+                      <div class="text">İletişim</div>
+                  </a>
+                </li>
+              -->
+
+                <li>
+                  <a href="{{site.baseurl}}/assets/files/DENIZCAKAR_CV.pdf" target="_blank">
+                      <div class="icon icon-download-alt"></div>
+                      <div class="text">CV İndir</div>
+                  </a>
+                </li>
+            </ul>
+        </div>        
+    </div>
+    
+    <div class="social-icons">
+        <ul>
+            <li><a href="http://www.facebook.com/dnzcakar" target="_blank"><i class="icon-facebook"></i></a></li>
+            <li><a href="https://twitter.com/dnzcakar" target="_blank"><i class="icon-twitter"></i></a></li>
+            <li><a href="http://linkedin.com/in/denizcakar" target="_blank"><i class="icon-linkedin"></i></a></li>
+        </ul>
+    </div>    
+</div>
